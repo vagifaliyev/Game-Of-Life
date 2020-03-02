@@ -1,6 +1,4 @@
-# ACSE-6 Individual Assignment (acse-va719)
-
-## Game of life - OpenMPI
+# Game of life - OpenMPI
 
 The GitHub repository contains the main (game.cpp) and post processing(post_pro.ipynb). In the beginning of game.cpp, the user can specify: the Boolean variable for periodic, integer variables for global domains size (imax & jmax) and an integer variable for the number of times games will be played (no_steps). When executed, files with iteration number and indices will be written out (example: it_3_row_1_col_0.txt).
 
@@ -18,7 +16,7 @@ Run
 mpirun a.out
 ```
 
-Seperate output files can be merged and animated using the [Post Processing](https://github.com/acse-2019/acse-6-individual-assignment-acse-va719/blob/master/post_pro.ipynb)
+Seperate output files can be merged and animated using the [Post Processing](https://github.com/vagifaliyev/GameOfLife/blob/master/post_pro.ipynb)
 
 ## Example
 
@@ -52,7 +50,7 @@ The analysis is documented in [Analysis.pdf](./Analysis.pdf)
 
 ## Authors
 
-* **Vagif Aliyev** - [Github](https://github.com/acse-va719)
+* **Vagif Aliyev** - [Github](https://github.com/vagifaliyev)
 
 ## License
 
