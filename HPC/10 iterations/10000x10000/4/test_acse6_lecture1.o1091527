@@ -1,0 +1,78 @@
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/va719/home/game_of_life
+# mpiexec: program arguments are: 
+# mpiexec: 24 ranks allocated via PBS select, but -n argument reduces that to 4
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: machinefile configured as:
+r4i0n0.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Tue Feb 18 19:26:41 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/va719/home/game_of_life 
+(r4i0n0.cx2.hpc.ic.ac.uk:0,1,2,3)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+----------------------------
+Divide 4 into 2 by 2 grid
+----------------------------
+ iteration:  iteration: 0 core: 3
+0 core: 2
+ iteration: 0 core: 1
+ iteration: 0 core: 0
+ iteration: 1 core: 2
+ iteration: 1 core: 3
+ iteration: 1 core: 1
+ iteration: 1 core: 0
+ iteration: 2 core: 0
+ iteration: 2 core: 1
+ iteration: 2 core: 3
+ iteration: 2 core: 2
+ iteration: 3 core: 2
+ iteration: 3 core: 3
+ iteration: 3 core: 1
+ iteration: 3 core: 0
+ iteration: 4 core: 0
+ iteration: 4 core: 1
+ iteration: 4 core: 3
+ iteration: 4 core: 2
+ iteration: 5 core: 2
+ iteration: 5 core: 3
+ iteration: 5 core: 1
+ iteration: 5 core: 0
+ iteration: 6 core: 2
+ iteration: 6 core: 3
+ iteration: 6 core: 1
+ iteration: 6 core: 0
+ iteration: 7 core: 2
+ iteration: 7 core: 3
+ iteration: 7 core: 1
+ iteration: 7 core: 0
+ iteration: 8 core: 2
+ iteration: 8 core: 3
+ iteration: 8 core: 1
+ iteration: 8 core: 0
+ iteration: 9 core: 0
+ iteration: 9 core: 1
+ iteration: 9 core: 2
+ iteration: 9 core: 3
+No of Processors --->  4
+Dimensions: RowxColoumn --->  10000 x 10000
+Time Taken --->16.842 s
+# mpiexec: finished at Tue Feb 18 19:26:58 GMT 2020
+
+============================================
+
+        Job resource usage summary 
+
+                 Memory (GB)    NCPUs
+ Requested  :         1            24
+ Used       :         0 (peak)   3.61 (ave)
+
+============================================

@@ -1,0 +1,10 @@
+#PBS -N test_acse6_lecture1
+#PBS -l walltime=0:30:00
+#PBS -l select=11:ncpus=24:mpiprocs=24:mem=2GB
+
+module load intel-suite
+module load mpi
+
+cd $PBS_O_WORKDIR
+
+mpiexec -n 256 ./game_of_life

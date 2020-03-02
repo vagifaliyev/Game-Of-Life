@@ -1,0 +1,360 @@
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/va719/home/game_of_life
+# mpiexec: program arguments are: 
+# mpiexec: 48 ranks allocated via PBS select, but -n argument reduces that to 32
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has exclusive use of the allocated nodes. Enabling process-pinning
+# mpiexec: machinefile configured as:
+r5i7n10.cx2.hpc.ic.ac.uk:24
+r5i7n11.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Wed Feb 19 09:39:40 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/va719/home/game_of_life 
+(r5i7n10.cx2.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23)
+(r5i7n11.cx2.hpc.ic.ac.uk:24,25,26,27,28,29,30,31)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+----------------------------
+Divide 32 into 4 by 8 grid
+----------------------------
+ iteration: 0 core: 17
+ iteration: 0 core: 16
+ iteration: 0 core: 11
+ iteration: 0 core: 24
+ iteration: 0 core: 19
+ iteration: 0 core: 18
+ iteration: 0 core: 23
+ iteration:  iteration: 0 core: 26
+0 core: 10
+ iteration: 0 core: 22
+ iteration: 0 core: 12
+ iteration: 0 core: 30
+ iteration: 0 core: 20
+ iteration: 0 core: 21
+ iteration: 0 core: 2
+ iteration: 0 core: 3 iteration: 0 core: 
+27
+ iteration: 0 core: 4
+ iteration:  iteration: 0 core: 29
+0 core: 28
+ iteration: 0 core: 25
+ iteration: 0 core: 0
+ iteration: 0 core: 1
+ iteration: 0 core: 8 iteration: 0 core: 9
+
+ iteration:  iteration: 0 core: 5
+0 core: 31
+ iteration: 0 core: 13
+ iteration:  iteration: 0 core:  iteration: 0 core: 6
+14
+0 core: 15
+ iteration: 1 core: 11
+ iteration: 0 core: 7
+ iteration: 1 core: 12
+ iteration: 1 core: 19
+ iteration: 1 core: 20
+ iteration: 1 core: 27
+ iteration: 1 core: 3
+ iteration: 1 core: 28
+ iteration: 1 core: 4
+ iteration: 1 core: 10
+ iteration: 1 core: 9
+ iteration: 1 core: 2
+ iteration: 1 core: 17
+ iteration: 1 core: 18
+ iteration: 1 core: 26
+ iteration: 1 core: 1
+ iteration: 1 core: 25
+ iteration: 1 core: 21
+ iteration: 1 core: 5
+ iteration: 1 core: 29
+ iteration: 1 core: 13
+ iteration: 1 core: 16
+ iteration: 1 core: 22
+ iteration: 1 core: 23
+ iteration: 1 core: 30
+ iteration: 1 core: 0
+ iteration: 1 core: 31
+ iteration: 1 core: 6
+ iteration: 1 core: 24
+ iteration: 1 core: 8
+ iteration: 1 core: 14
+ iteration: 1 core: 15
+ iteration: 1 core: 7
+ iteration: 2 core: 11
+ iteration: 2 core: 10
+ iteration: 2 core: 19
+ iteration: 2 core: 3
+ iteration: 2 core: 27
+ iteration: 2 core: 2
+ iteration: 2 core: 18
+ iteration: 2 core: 26
+ iteration: 2 core: 4
+ iteration: 2 core: 12
+ iteration: 2 core: 20
+ iteration: 2 core: 28
+ iteration: 2 core: 13
+ iteration: 2 core: 5
+ iteration: 2 core: 21
+ iteration: 2 core: 29
+ iteration: 2 core: 25
+ iteration: 2 core: 1
+ iteration: 2 core: 9
+ iteration: 2 core: 17
+ iteration: 2 core: 14
+ iteration: 2 core: 22
+ iteration: 2 core: 0
+ iteration: 2 core: 24
+ iteration: 2 core: 6
+ iteration: 2 core: 30
+ iteration: 2 core: 7
+ iteration: 2 core: 31
+ iteration: 2 core: 8
+ iteration: 2 core: 15
+ iteration: 2 core: 16
+ iteration: 2 core: 23
+ iteration: 3 core: 11
+ iteration: 3 core: 19
+ iteration: 3 core: 3
+ iteration: 3 core: 27
+ iteration: 3 core: 4
+ iteration: 3 core: 5
+ iteration: 3 core: 28
+ iteration: 3 core: 12
+ iteration: 3 core: 29
+ iteration: 3 core: 13
+ iteration: 3 core: 20
+ iteration: 3 core: 21
+ iteration: 3 core: 9
+ iteration: 3 core: 10
+ iteration: 3 core: 14
+ iteration: 3 core: 8
+ iteration: 3 core: 15
+ iteration: 3 core: 22
+ iteration: 3 core: 6
+ iteration: 3 core: 7
+ iteration: 3 core: 30
+ iteration: 3 core: 23
+ iteration: 3 core: 31
+ iteration: 3 core: 16
+ iteration: 3 core: 24
+ iteration: 3 core: 17
+ iteration: 3 core: 26
+ iteration: 3 core: 18
+ iteration: 3 core: 25
+ iteration: 3 core: 0
+ iteration: 3 core: 1
+ iteration: 3 core: 2
+ iteration: 4 core: 4
+ iteration: 4 core: 5
+ iteration: 4 core: 11
+ iteration: 4 core: 15
+ iteration: 4 core: 23
+ iteration: 4 core: 6
+ iteration: 4 core: 7
+ iteration: 4 core: 9
+ iteration: 4 core: 10
+ iteration: 4 core: 27
+ iteration: 4 core: 19
+ iteration: 4 core: 31
+ iteration: 4 core: 3
+ iteration: 4 core: 8
+ iteration: 4 core: 16
+ iteration: 4 core: 17
+ iteration: 4 core: 18
+ iteration: 4 core: 24
+ iteration: 4 core: 0
+ iteration: 4 core: 26
+ iteration: 4 core: 1
+ iteration: 4 core: 25
+ iteration: 4 core: 2
+ iteration: 4 core: 28
+ iteration: 4 core: 12
+ iteration: 4 core: 29
+ iteration: 4 core: 13
+ iteration: 4 core: 30
+ iteration: 4 core: 14
+ iteration: 4 core: 20
+ iteration: 4 core: 22
+ iteration: 4 core: 21
+ iteration: 5 core: 11
+ iteration: 5 core: 15
+ iteration: 5 core: 23
+ iteration: 5 core: 31
+ iteration: 5 core: 7
+ iteration: 5 core: 19
+ iteration: 5 core: 3
+ iteration: 5 core: 27
+ iteration: 5 core: 8
+ iteration: 5 core: 9
+ iteration: 5 core: 10
+ iteration: 5 core: 4
+ iteration: 5 core: 5
+ iteration: 5 core: 6
+ iteration: 5 core: 12
+ iteration: 5 core: 13
+ iteration: 5 core: 14
+ iteration: 5 core: 24
+ iteration: 5 core: 16
+ iteration: 5 core: 26
+ iteration: 5 core: 17
+ iteration: 5 core: 29
+ iteration: 5 core: 18
+ iteration: 5 core: 25
+ iteration: 5 core: 0
+ iteration: 5 core: 28
+ iteration: 5 core: 1
+ iteration: 5 core: 30
+ iteration: 5 core: 2
+ iteration: 5 core: 20
+ iteration: 5 core: 21
+ iteration: 5 core: 22
+ iteration: 6 core: 15
+ iteration: 6 core: 11
+ iteration: 6 core: 23
+ iteration: 6 core: 7
+ iteration: 6 core: 31
+ iteration: 6 core: 8
+ iteration: 6 core: 9
+ iteration: 6 core: 10
+ iteration: 6 core: 19
+ iteration: 6 core: 3
+ iteration: 6 core: 27
+ iteration: 6 core: 4
+ iteration: 6 core: 5
+ iteration: 6 core: 6
+ iteration: 6 core: 12
+ iteration: 6 core: 13
+ iteration: 6 core: 14
+ iteration: 6 core: 28
+ iteration: 6 core: 16
+ iteration: 6 core: 29
+ iteration: 6 core: 17
+ iteration: 6 core: 30
+ iteration: 6 core: 18
+ iteration: 6 core: 24
+ iteration: 6 core: 20
+ iteration: 6 core: 25
+ iteration: 6 core: 21
+ iteration: 6 core: 26
+ iteration: 6 core: 22
+ iteration: 6 core: 0
+ iteration: 6 core: 1
+ iteration: 6 core: 2
+ iteration: 7 core: 15
+ iteration: 7 core: 11
+ iteration: 7 core: 23
+ iteration: 7 core: 7
+ iteration: 7 core: 31
+ iteration: 7 core: 4
+ iteration: 7 core: 5
+ iteration: 7 core: 27
+ iteration: 7 core: 19
+ iteration: 7 core: 3
+ iteration: 7 core: 6
+ iteration: 7 core: 8
+ iteration: 7 core: 9
+ iteration: 7 core: 10
+ iteration: 7 core: 16
+ iteration: 7 core: 17
+ iteration: 7 core: 18
+ iteration: 7 core: 24
+ iteration: 7 core: 0
+ iteration: 7 core: 26
+ iteration: 7 core: 1
+ iteration: 7 core: 25
+ iteration: 7 core: 2
+ iteration: 7 core: 28
+ iteration: 7 core: 12
+ iteration: 7 core: 29
+ iteration: 7 core: 13
+ iteration: 7 core: 30
+ iteration: 7 core: 14
+ iteration: 7 core: 20
+ iteration: 7 core: 21
+ iteration: 7 core: 22
+ iteration: 8 core: 11
+ iteration: 8 core: 15
+ iteration: 8 core: 23
+ iteration: 8 core: 7
+ iteration: 8 core: 31
+ iteration: 8 core: 8
+ iteration: 8 core: 9
+ iteration: 8 core: 10
+ iteration: 8 core: 19
+ iteration: 8 core: 27
+ iteration: 8 core: 3
+ iteration: 8 core: 4
+ iteration: 8 core: 5
+ iteration: 8 core: 6
+ iteration: 8 core: 16
+ iteration: 8 core: 17
+ iteration: 8 core: 18
+ iteration: 8 core: 24
+ iteration: 8 core: 0
+ iteration: 8 core: 26
+ iteration: 8 core: 1
+ iteration: 8 core: 25
+ iteration: 8 core: 2
+ iteration: 8 core: 28
+ iteration: 8 core: 12
+ iteration: 8 core: 29
+ iteration: 8 core: 13
+ iteration: 8 core: 30
+ iteration: 8 core: 14
+ iteration: 8 core: 20
+ iteration: 8 core: 22
+ iteration: 8 core: 21
+ iteration: 9 core: 11
+ iteration: 9 core: 15
+ iteration: 9 core: 23
+ iteration: 9 core: 7
+ iteration: 9 core: 31
+ iteration: 9 core: 8
+ iteration: 9 core: 9
+ iteration: 9 core: 10
+ iteration: 9 core: 3
+ iteration: 9 core: 27
+ iteration: 9 core: 4
+ iteration: 9 core: 5
+ iteration: 9 core: 6
+ iteration: 9 core: 19
+ iteration: 9 core: 16
+ iteration: 9 core: 17
+ iteration: 9 core: 18
+ iteration: 9 core: 24
+ iteration: 9 core: 0
+ iteration: 9 core: 25
+ iteration: 9 core: 1
+ iteration: 9 core: 26
+ iteration: 9 core: 2
+ iteration: 9 core: 28
+ iteration: 9 core: 12
+ iteration: 9 core: 29
+ iteration: 9 core: 13
+ iteration: 9 core: 30
+ iteration: 9 core: 14
+ iteration: 9 core: 20
+ iteration: 9 core: 21
+ iteration: 9 core: 22
+No of Processors --->  32
+Dimensions: RowxColoumn --->  1000 x 1000
+Time Taken --->0.69565 s
+# mpiexec: finished at Wed Feb 19 09:39:41 GMT 2020
+
+============================================
+
+        Job resource usage summary 
+
+                 Memory (GB)    NCPUs
+ Requested  :         4            48
+ Used       :         0 (peak)   1.00 (ave)
+
+============================================

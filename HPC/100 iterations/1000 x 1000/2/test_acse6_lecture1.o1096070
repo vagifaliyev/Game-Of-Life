@@ -1,0 +1,238 @@
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/va719/home/game_of_life
+# mpiexec: program arguments are: 
+# mpiexec: 24 ranks allocated via PBS select, but -n argument reduces that to 2
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: machinefile configured as:
+r4i0n0.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Wed Feb 19 11:37:31 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/va719/home/game_of_life 
+(r4i0n0.cx2.hpc.ic.ac.uk:0,1)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+----------------------------
+Divide 2 into 1 by 2 grid
+----------------------------
+ iteration: 0 iteration:  core: 0
+0 core: 1
+ iteration: 1 core: 0
+ iteration: 1 core: 1
+ iteration: 2 core: 0
+ iteration: 2 core: 1
+ iteration: 3 core: 0
+ iteration: 3 core: 1
+ iteration: 4 core: 0
+ iteration: 4 core: 1
+ iteration: 5 core: 0
+ iteration: 5 core: 1
+ iteration: 6 core: 0
+ iteration: 6 core: 1
+ iteration: 7 core: 0
+ iteration: 7 core: 1
+ iteration: 8 core: 0
+ iteration: 8 core: 1
+ iteration: 9 core: 0
+ iteration: 9 core: 1
+ iteration: 10 core: 1
+ iteration: 10 core: 0
+ iteration: 11 core: 1
+ iteration: 11 core: 0
+ iteration: 12 core: 1
+ iteration: 12 core: 0
+ iteration: 13 core: 1
+ iteration: 13 core: 0
+ iteration: 14 core: 1
+ iteration: 14 core: 0
+ iteration: 15 core: 1
+ iteration: 15 core: 0
+ iteration: 16 core: 0
+ iteration: 16 core: 1
+ iteration: 17 core: 0
+ iteration: 17 core: 1
+ iteration: 18 core: 0
+ iteration: 18 core: 1
+ iteration: 19 core: 0
+ iteration: 19 core: 1
+ iteration: 20 core: 0
+ iteration: 20 core: 1
+ iteration: 21 core: 0
+ iteration: 21 core: 1
+ iteration: 22 core: 0
+ iteration: 22 core: 1
+ iteration: 23 core: 0
+ iteration: 23 core: 1
+ iteration: 24 core: 0
+ iteration: 24 core: 1
+ iteration: 25 core: 0
+ iteration: 25 core: 1
+ iteration: 26 core: 0
+ iteration: 26 core: 1
+ iteration: 27 core: 0
+ iteration: 27 core: 1
+ iteration: 28 core: 0
+ iteration: 28 core: 1
+ iteration: 29 core: 0
+ iteration: 29 core: 1
+ iteration: 30 core: 0
+ iteration: 30 core: 1
+ iteration: 31 core: 1
+ iteration: 31 core: 0
+ iteration: 32 core: 1
+ iteration: 32 core: 0
+ iteration: 33 core: 1
+ iteration: 33 core: 0
+ iteration: 34 core: 1
+ iteration: 34 core: 0
+ iteration: 35 core: 1
+ iteration: 35 core: 0
+ iteration: 36 core: 0
+ iteration: 36 core: 1
+ iteration: 37 core: 0
+ iteration: 37 core: 1
+ iteration: 38 core: 0
+ iteration: 38 core: 1
+ iteration: 39 core: 0
+ iteration: 39 core: 1
+ iteration: 40 core: 0
+ iteration: 40 core: 1
+ iteration: 41 core: 0
+ iteration: 41 core: 1
+ iteration: 42 core: 0
+ iteration: 42 core: 1
+ iteration: 43 core: 1
+ iteration: 43 core: 0
+ iteration: 44 core: 1
+ iteration: 44 core: 0
+ iteration: 45 core: 0
+ iteration: 45 core: 1
+ iteration: 46 core: 1
+ iteration: 46 core: 0
+ iteration: 47 core: 1
+ iteration: 47 core: 0
+ iteration: 48 core: 1
+ iteration: 48 core: 0
+ iteration: 49 core: 1
+ iteration: 49 core: 0
+ iteration: 50 core: 0
+ iteration: 50 core: 1
+ iteration: 51 core: 1
+ iteration: 51 core: 0
+ iteration: 52 core: 1
+ iteration: 52 core: 0
+ iteration: 53 core: 0
+ iteration: 53 core: 1
+ iteration: 54 core: 0
+ iteration: 54 core: 1
+ iteration: 55 core: 1
+ iteration: 55 core: 0
+ iteration: 56 core: 0
+ iteration: 56 core: 1
+ iteration: 57 core: 1
+ iteration: 57 core: 0
+ iteration: 58 core: 1
+ iteration: 58 core: 0
+ iteration: 59 core: 1
+ iteration: 59 core: 0
+ iteration: 60 core: 1
+ iteration: 60 core: 0
+ iteration: 61 core: 1
+ iteration: 61 core: 0
+ iteration: 62 core: 1
+ iteration: 62 core: 0
+ iteration: 63 core: 1
+ iteration: 63 core: 0
+ iteration: 64 core: 0
+ iteration: 64 core: 1
+ iteration: 65 core: 0
+ iteration: 65 core: 1
+ iteration: 66 core: 0
+ iteration: 66 core: 1
+ iteration: 67 core: 1
+ iteration: 67 core: 0
+ iteration: 68 core: 0
+ iteration: 68 core: 1
+ iteration: 69 core: 0
+ iteration: 69 core: 1
+ iteration: 70 core: 1
+ iteration: 70 core: 0
+ iteration: 71 core: 0
+ iteration: 71 core: 1
+ iteration: 72 core: 0
+ iteration: 72 core: 1
+ iteration: 73 core: 0
+ iteration: 73 core: 1
+ iteration: 74 core: 0
+ iteration: 74 core: 1
+ iteration: 75 core: 0
+ iteration: 75 core: 1
+ iteration: 76 core: 0
+ iteration: 76 core: 1
+ iteration: 77 core: 0
+ iteration: 77 core: 1
+ iteration: 78 core: 0
+ iteration: 78 core: 1
+ iteration: 79 core: 0
+ iteration: 79 core: 1
+ iteration: 80 core: 0
+ iteration: 80 core: 1
+ iteration: 81 core: 0
+ iteration: 81 core: 1
+ iteration: 82 core: 0
+ iteration: 82 core: 1
+ iteration: 83 core: 0
+ iteration: 83 core: 1
+ iteration: 84 core: 0
+ iteration: 84 core: 1
+ iteration: 85 core: 0
+ iteration: 85 core: 1
+ iteration: 86 core: 0
+ iteration: 86 core: 1
+ iteration: 87 core: 0
+ iteration: 87 core: 1
+ iteration: 88 core: 0
+ iteration: 88 core: 1
+ iteration: 89 core: 1
+ iteration: 89 core: 0
+ iteration: 90 core: 1
+ iteration: 90 core: 0
+ iteration: 91 core: 1
+ iteration: 91 core: 0
+ iteration: 92 core: 1
+ iteration: 92 core: 0
+ iteration: 93 core: 1
+ iteration: 93 core: 0
+ iteration: 94 core: 1
+ iteration: 94 core: 0
+ iteration: 95 core: 1
+ iteration: 95 core: 0
+ iteration: 96 core: 1
+ iteration: 96 core: 0
+ iteration: 97 core: 1
+ iteration: 97 core: 0
+ iteration: 98 core: 1
+ iteration: 98 core: 0
+ iteration: 99 core: 0
+ iteration: 99 core: 1
+No of Processors --->  2
+Dimensions: RowxColoumn --->  1000 x 1000
+Time Taken --->3.0465 s
+# mpiexec: finished at Wed Feb 19 11:37:34 GMT 2020
+
+============================================
+
+        Job resource usage summary 
+
+                 Memory (GB)    NCPUs
+ Requested  :         1            24
+ Used       :         0 (peak)   1.50 (ave)
+
+============================================

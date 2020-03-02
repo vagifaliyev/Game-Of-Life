@@ -1,0 +1,40 @@
+# mpiexec: MPI is /apps/mpi/intel/2019.6.166
+# mpiexec: RDMA network found -- using rdma+shared memory (FI_VERBS_IFACE=ib0)
+# mpiexec: full path to program is /rdsgpfs/general/user/va719/home/game_of_life
+# mpiexec: program arguments are: 
+# mpiexec: 48 ranks allocated via PBS select, but -n argument reduces that to 32
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: Job has exclusive use of the allocated nodes. Enabling process-pinning
+# mpiexec: machinefile configured as:
+r5i7n10.cx2.hpc.ic.ac.uk:24
+r5i7n11.cx2.hpc.ic.ac.uk:24
+#
+# mpiexec: Checking all nodes are ONLINE:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: launch started at Wed Feb 19 13:17:48 GMT 2020
+# mpiexec: launching program...
+# /rdsgpfs/general/user/va719/home/game_of_life 
+(r5i7n10.cx2.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23)
+(r5i7n11.cx2.hpc.ic.ac.uk:24,25,26,27,28,29,30,31)
+
+[0] MPI startup(): I_MPI_FALLBACK environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_MALLOC
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+----------------------------
+Divide 32 into 4 by 8 grid
+----------------------------
+No of Processors --->  32
+Dimensions: RowxColoumn --->  1000 x 1000
+Time Taken --->0.95054 s
+# mpiexec: finished at Wed Feb 19 13:17:49 GMT 2020
+
+============================================
+
+        Job resource usage summary 
+
+                 Memory (GB)    NCPUs
+ Requested  :         2            48
+ Used       :         0 (peak)   1.80 (ave)
+
+============================================
